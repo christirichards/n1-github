@@ -1,0 +1,20 @@
+{
+  "name": "n1-github",
+  "version": "1.0.0",
+  "main": "./lib/main",
+  "description": "A plugin for Nylas Mail and Nylas N1/Pro which shows both whether the e-mail is about an issue, pull request, or something else, and whether the issue or pull request is closed.",
+  "license": "GPL-3.0",
+
+  "title":"GitHub",
+  "description": "Adds various helpers to make working with GitHub e-mails more friendly.",
+  "icon": "./icon.png",
+  "isOptional": true,
+
+  "engines": {
+    "nylas": ">=0.3.0 <0.5.0"
+  },
+  "dependencies": {
+    "form-serialize": "^0.7.1",
+    "github-basic": "^6.0.0"
+  }
+}
