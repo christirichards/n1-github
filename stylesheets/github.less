@@ -1,0 +1,93 @@
+
+.btn.btn-toolbar.btn-view-on-github {
+  font-size: .8em;
+  &:only-of-type {
+    margin-right: 5px;
+  }
+}
+
+.btn.github-issue-status {
+  color: #FFFFFF;
+  margin-right: 5px;
+  margin-bottom: 1px; // Cutoff fix
+  height: auto;
+  line-height: auto;
+  font-size: 0.8em;
+  &.github-issue-status-open {
+    background: #008000;
+  }
+  &.github-issue-status-closed {
+    background: #FF0000;
+  }
+}
+
+.github-issue-status {
+  img {
+    zoom: 0.4 !important;
+  }
+}
+
+.container-github {
+  width: 40%;
+  min-width: 460px;
+  margin: 0 auto;
+}
+.github-intro {
+  color: #757575;
+  font-size: 12px;
+}
+.github-settings-section {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+  tr:not(:last-child) td {
+    padding-bottom: 10px;
+  }
+
+  tr td:first-child {
+    width: 150px;
+  }
+}
+
+// Styles below adjust N1 defaults for a cohesive look when the plugin in enabled
+
+.thread-list-narrow {
+  .snippet-and-labels {
+    align-items: center;
+    .mail-label {
+      font-size: 0.8em;
+      line-height: 21px;
+    }
+  }
+}
+
+#message-list {
+  .message-subject-wrap {
+    line-height: 25px;
+  }
+  .message-subject {
+    display: block;
+    margin-right: auto;
+  }
+  .thread-injected-mail-labels {
+    margin-top: 10px;
+    line-height: 20px;
+  }
+}
+
+.mail-label {
+  font-size: .8em;
+}
+
+.mail-label.removable {
+  line-height: 1.5;
+}
+
+.mail-label.removable .inner {
+  line-height: 20px !important;
+}
+
+.thread-list .list-item, .draft-list .list-item {
+  line-height: 1.5;
+}
